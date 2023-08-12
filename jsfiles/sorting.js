@@ -116,7 +116,6 @@ const mergeSortBars = () => {
 
 
 mergeId.addEventListener("click", () => {
-  console.log(typeof mergeId.id);
   mergeSortBars();
 });
 
