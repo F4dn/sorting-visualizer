@@ -1,0 +1,33 @@
+body{
+    background-color:#334054;
+}
+
+.btn{
+    margin: 0 0.3rem 0;
+    border-color: cornsilk;
+}
+#main-heading{
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: #333;
+    color: #333;
+}
+
+#sorting-bars{
+    display: flex;
+    justify-content: center;
+}
+
+.bars{
+    margin: 0 1.5px 0;
+    min-width: 4px;
+    background-color: lightseagreen;
+}
+
+
+h4{
+    display: inline-block;
+}
