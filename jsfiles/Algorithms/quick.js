@@ -1,4 +1,4 @@
-import swap from "../swap.js";
+import swap from "./swap.js";
 const quickSort = async (arr) => {
   const len = arr.length;
 
@@ -38,7 +38,6 @@ const quickSort = async (arr) => {
   };
 
   await qs(0, len - 1);
-  console.log(arr);
 };
 
 export default quickSort;

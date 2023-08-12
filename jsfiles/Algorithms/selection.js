@@ -1,5 +1,4 @@
-import swap from "../swap.js";
-
+import swap from "./swap.js";
 const selectionSort = async (arr) => {
   let barsArr = document.querySelectorAll(".bars");
 
@@ -21,7 +20,6 @@ const selectionSort = async (arr) => {
     barsArr[i].style.background = "green";
   }
   barsArr[len - 1].style.background = "green";
-  console.log(arr);
 };
 
 export default selectionSort;

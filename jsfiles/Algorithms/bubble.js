@@ -1,4 +1,4 @@
-import swap from "../swap.js";
+import swap from "./swap.js";
 
 export default async function bubbleSort(arr) {
   let barsArr = document.querySelectorAll(".bars");
@@ -19,6 +19,5 @@ export default async function bubbleSort(arr) {
     barsArr[len - i - 1].style.background = "green";
   }
   barsArr[0].style.background = "green";
-  console.log(arr);
 }
 

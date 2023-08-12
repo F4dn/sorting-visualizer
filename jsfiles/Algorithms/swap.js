@@ -1,7 +1,6 @@
 export default async function swap(e1, e2 ) {
   let speedId = document.getElementById("sorting-speed");
   let speed = speedId.value;
-  console.log(speed); 
   e1.style.background = "red";
   e2.style.background = "red";
   await new Promise((resolve) =>

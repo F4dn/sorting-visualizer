@@ -49,7 +49,6 @@ const mergeSort = (arr) => {
   };
 
   mergeS(0, len - 1);
-  console.log(arr);
   return animationArr;
 };
 

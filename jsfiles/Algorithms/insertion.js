@@ -21,7 +21,6 @@ const insertionSort = async (arr) => {
       arr[j] = a;
       j--;
     }
-    console.log(arr);
     // barArr[j+1].style.background = "green";
   }
 };

@@ -1,6 +1,6 @@
 import bubbleSort from "./Algorithms/bubble.js";
 import selectionSort from "./Algorithms/selection.js";
-import insertionSort from ".Algorithms/insertion.js";
+import insertionSort from "./Algorithms/insertion.js";
 import quickSort from "./Algorithms/quick.js";
 import mergeSort from "./Algorithms/merge.js";
 
@@ -48,28 +48,24 @@ ele.addEventListener("click", () => {
 let buttonArr = document.getElementById("bubble");
 
 buttonArr.addEventListener("click", () => {
-  console.log(typeof buttonArr.id);
   bubbleSort(arr);
 });
 
 let selectionId = document.getElementById("selection");
 
 selectionId.addEventListener("click", () => {
-  console.log(typeof selectionId.id);
   selectionSort(arr);
 });
 
 let insertionId = document.getElementById("insertion");
 
 insertionId.addEventListener("click", () => {
-  console.log(typeof insertionId.id);
   insertionSort(arr);
 });
 
 let quickId = document.getElementById("quick");
 
 quickId.addEventListener("click", () => {
-  console.log(typeof quickId.id);
   quickSort(arr);
 });
 
