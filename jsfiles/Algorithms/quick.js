@@ -1,4 +1,4 @@
-import swap from "./swap.js";
+import swap from "../swap.js";
 const quickSort = async (arr) => {
   const len = arr.length;
 

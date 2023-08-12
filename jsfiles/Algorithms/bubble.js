@@ -1,4 +1,4 @@
-import swap from "./swap.js";
+import swap from "../swap.js";
 
 export default async function bubbleSort(arr) {
   let barsArr = document.querySelectorAll(".bars");

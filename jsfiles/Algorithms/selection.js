@@ -1,4 +1,4 @@
-import swap from "./swap.js";
+import swap from "../swap.js";
 
 const selectionSort = async (arr) => {
   let barsArr = document.querySelectorAll(".bars");

@@ -1,8 +1,8 @@
-import bubbleSort from "./bubble.js";
-import selectionSort from "./selection.js";
-import insertionSort from "./insertion.js";
-import quickSort from "./quick.js";
-import mergeSort from "./merge.js";
+import bubbleSort from "./Algorithms/bubble.js";
+import selectionSort from "./Algorithms/selection.js";
+import insertionSort from ".Algorithms/insertion.js";
+import quickSort from "./Algorithms/quick.js";
+import mergeSort from "./Algorithms/merge.js";
 
 // if (typeof window !== 'undefined') {
 let arr = [];
